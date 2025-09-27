@@ -1,0 +1,30 @@
+{
+  "name": "anon-ownership",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@types/node": "^24.5.2",
+    "hardhat": "^2.26.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@semaphore-protocol/contracts": "^4.13.1",
+    "@semaphore-protocol/group": "^4.13.1",
+    "@semaphore-protocol/identity": "^4.13.1",
+    "@semaphore-protocol/proof": "^4.13.1",
+    "dotenv": "^17.2.2",
+    "ethers": "^6.15.0",
+    "json-stable-stringify": "^1.3.0",
+    "poseidon-solidity": "^0.0.5"
+  }
+}
